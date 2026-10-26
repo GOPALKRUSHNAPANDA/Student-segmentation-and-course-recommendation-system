@@ -1,0 +1,19 @@
+{
+  "k_final": 5,
+  "silhouette_kmeans": 0.28024532273968095,
+  "silhouette_hierarchical": 0.26599096633907404,
+  "adjusted_rand_index": 0.8310863856093673,
+  "davies_bouldin": 1.3887461491054442,
+  "mean_intra_cluster_similarity": 0.7525999057986728,
+  "engagement_index": {
+    "Premium Career Investors": 0.36,
+    "Advanced Free Specialists": 0.35,
+    "Beginner Free Starters": 0.34,
+    "Multi-Domain Explorers": 3.98,
+    "Steady Multi-Course Learners": 0.78
+  },
+  "baseline_hit_rate": 0.0942,
+  "hybrid_hit_rate": 0.1022,
+  "relative_lift_pct": 8.492569002123135,
+  "n_test_learners": 1380.0
+}

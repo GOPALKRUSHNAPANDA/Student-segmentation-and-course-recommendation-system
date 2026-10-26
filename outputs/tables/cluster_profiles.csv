@@ -1,0 +1,6 @@
+cluster,learners,avg_courses,avg_categories,avg_spend,avg_rating,depth_index,paid_ratio,avg_age,enroll_freq,share_%,top_category,top_level,segment,intra_cluster_similarity
+0,672,1.192,1.185,245.43,2.962,0.53,0.944,24.649,1.019,22.4,Artificial Intelligence,Advanced,Premium Career Investors,0.696
+1,471,1.172,1.163,0.193,2.164,0.788,0.003,24.786,0.992,15.7,Machine Learning,Advanced,Advanced Free Specialists,0.79
+2,743,1.145,1.137,0.131,3.888,0.289,0.004,25.471,0.994,24.767,Data Science,Beginner,Beginner Free Starters,0.752
+3,460,13.267,8.635,93.461,3.113,0.488,0.369,24.941,1.175,15.333,Data Science,Beginner,Multi-Domain Explorers,0.915
+4,654,2.589,2.402,91.63,3.164,0.513,0.368,24.904,0.401,21.8,Artificial Intelligence,Advanced,Steady Multi-Course Learners,0.61
