@@ -5,6 +5,6 @@ scipy>=1.10
 matplotlib>=3.7
 seaborn>=0.12
 plotly>=5.18
-streamlit>=1.30
+streamlit>=1.50
 openpyxl>=3.1
 joblib>=1.3

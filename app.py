@@ -107,6 +107,12 @@ def load_everything():
     return users, courses, txns, feats, prof, rec
 
 
+@st.cache_data(show_spinner="Computing k-selection curves...")
+def k_table(_feats):
+    X, _ = build_matrix(_feats)
+    return evaluate_k(X)
+
+
 users, courses, txns, feats, prof, rec = load_everything()
 COLOR_MAP = {s: seg_info(s)[0] for s in feats.segment.unique()}
 
@@ -337,8 +343,7 @@ else:
 
     t1, t2, t3 = st.tabs(["🔢 Choosing k", "🎯 Recommendation quality", "⚡ Engagement lift"])
     with t1:
-        X, _ = build_matrix(feats)
-        kdf = evaluate_k(X)
+        kdf = k_table(feats)
         a, b = st.columns(2)
         fig = px.line(kdf, x="k", y="inertia", markers=True, title="Elbow method (inertia)")
         fig.add_vline(x=K_FINAL, line_dash="dash", line_color="#E17055")
